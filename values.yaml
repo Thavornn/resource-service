@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: "pinkmelon/resource-service"
+  tag: "3"
+
+service:
+  type: LoadBalancer
+  port: 8081
