@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "pinkmelon/resource-service"
-  tag: 12
+  tag: 14
 
 service:
   type: LoadBalancer
