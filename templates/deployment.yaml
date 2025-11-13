@@ -27,8 +27,15 @@ spec:
               value: "resource_db"
             - name: SPRING_DATASOURCE_PASSWORD
               value: 'q~7.]j%dXmUXcKY+NQ'
+            - name: SPRING_CLOUD_OPENFEIGN_CLIENT_CONFIG_AUTHSERVICE_URL
+              value: "http://auth-service.hrd-portal.svc.cluster.local:8081"
             - name: SPRING_CLOUD_OPENFEIGN_CLIENT_CONFIG_CLASSROOMSERVICE_URL
               value: "http://classroom-service.hrd-portal.svc.cluster.local:8082"
+            - name: SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI
+              value: "https://keycloak.hrdportal.systems/realms/hrd-portal"
+            - name: SPRING_PROFILES_ACTIVE
+              value: "prod" 
+          
 
 
         
