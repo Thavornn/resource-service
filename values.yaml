@@ -4,7 +4,7 @@ replicaCount: 1
 # Docker image info
 image:
   repository: "pinkmelon/resource-service"
-  tag: 31
+  tag: 33
 
 # Service config
 service:
