@@ -22,7 +22,7 @@ spec:
             - containerPort: {{ .Values.service.port }}
           env:
             - name: SPRING_DATASOURCE_URL
-              value: "jdbc:postgresql://96.9.81.188:5438/resource_db"
+              value: "jdbc:postgresql://146.190.105.198:5438/resource_db"
 
             - name: SPRING_DATASOURCE_USERNAME
               value: "resource_db"
@@ -37,7 +37,7 @@ spec:
               value: "http://classroom-service.hrd-portal.svc.cluster.local:8082"
 
             - name: SPRING_SECURITY_OAUTH2_RESOURCESERVER_JWT_ISSUER_URI
-              value: "https://keycloak.hrdportal.systems/realms/hrd-portal"
+              value: "https://keycloak-new.hrdportal.systems/realms/hrd-portal"
               
             - name: SPRING_PROFILES_ACTIVE
               value: "prod" 
